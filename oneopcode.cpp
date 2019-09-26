@@ -39,7 +39,7 @@ int assembler(unsigned char *buff,char *instrname)
 
 	//set prefix
 	int i,j,k;
-	for(i = 0,k = 0;i<mysizeof(buff);)
+	for(i = 0,k = 0;i<sizeof(buff);)
 	{
 		for(j=0;j<sizeof(prefixarray);j++)
 		{
